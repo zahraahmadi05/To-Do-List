@@ -1,0 +1,90 @@
+* {
+  background: #9bbffa;
+}
+
+body {
+  background-color: #9ec1f7;
+  font-family: "Numans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 550px;
+  margin: 70px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 3vh;
+  background: #fff;
+}
+
+input {
+  margin-bottom: 5px;
+  width: 80%;
+  padding: 10px;
+  color: #001638;
+  font-size: 2vh;
+  background: #dedcdc;
+  margin-top: 20px;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+
+.add {
+  padding: 10px 10px;
+  margin-top: 10px;
+  font-size: 1.7vh;
+  cursor: pointer;
+  border-radius: 8px;
+  background: #610303;
+  color: #fff;
+}
+
+.taskList {
+  list-style: none;
+  text-align: left;
+  margin-top: 20px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.taskList li.checked {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.taskList li.checked::before {
+  content: "";
+  background: url(img/icons8-checked-48.png);
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+}
+
+.taskList li::before {
+  content: "";
+  background: url(img/icons8-unchecked-radio-button-48.png);
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top:10px;
+}
+
+.delete-btn {
+  margin-left: 30%;
+  padding: 5px 10px;
+  background:url(img/84-842915_delete-icon-png-red.png);
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  text-align: center;
+}
